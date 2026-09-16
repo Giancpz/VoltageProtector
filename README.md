@@ -14,6 +14,10 @@ Componentes para el protector
 Si no quieres comunicación ni pantalla LCD puede ser el ESP32 de 1 núcleo pero tienes que cambiar un poco el codigo y quitar el FreeRTOS.
 En mi caso uso 12v porque en el modulo de relay (de Arduino), reemplace el relay por uno de 12v ya que me dio menor tiempo de apertura y es una mejor marca. También utilizo un optoacoplador para activar el relay.
 
+El código puede que no sea perfecto, ya que no se mucho de C++, pero me ha funciona el 100% de las veces con las fluctuaciones de tension.
+
+Por ahora es una idea por si sabes de microcontroladores y no una guía detallada, solo asegúrate que el microcontrolador que usaras tenga un ADC con una lectura superior de 960/s.
+
 <img width="1170" height="1331" alt="IMG_2564" src="https://github.com/user-attachments/assets/ae8cfe7f-807b-4da2-8695-90086ec05de4" />
 
 <img width="1170" height="1331" alt="IMG_2564" src="https://github.com/user-attachments/assets/859c6782-4ccd-4c18-913c-7139b83ef326" />
